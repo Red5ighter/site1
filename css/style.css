@@ -1,0 +1,109 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a::focus,a:active{outline: none;}
+nav,footer,header,aside,{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 21px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 40;}
+/*---------------------------*/
+
+body{
+	padding: 5px 400px 0px 220px;
+	background: url("../img/S5.jpg");
+
+
+}
+.back{
+	background: url("../img/S1.jpg");
+	height: 200px;
+	width: 1400px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding: 40px 0 0 0;
+	text-shadow: 5px 5px 5px #8b00ff;
+
+
+}
+.back1{
+height: 115px;
+width: 1400px;
+border-radius: 15px;
+box-shadow: 0 0 30px 15px #8b00ff;
+padding: 20px;
+text-align: center;
+color: #8b00ff;
+}
+.back2{
+background: url("../img/V1.jpg");
+height: 900px;
+width: 1400px;
+border-radius: 15px;
+box-shadow: 0 0 10px #000;
+padding: 20px;
+text-align: center;
+text-shadow: 5px 5px 5px #8b00ff
+}
+h3{
+	font-size: 25px;
+}
+.back3{
+background: url("../img/s2.jpg");
+height: 570px;
+width: 1400px;
+border-radius: 15px;
+box-shadow: 0 0 10px #000;
+padding: 20px;
+text-align: center;	
+color: white;
+text-shadow: 5px 5px 5px #8b00ff;
+}
+.back4{
+height: 1300px;
+width: 1400px;
+border-radius: 15px;
+box-shadow: 0 0 10px #000;
+padding: 20px;
+text-align: center;	
+color: black;
+background: url("../img/A1.jpg");
+font-size: 50px;
+text-shadow: 5px 5px 5px #8b00ff;
+
+}
+h4{
+	font-size: 50px
+}
+
+}
